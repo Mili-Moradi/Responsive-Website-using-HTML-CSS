@@ -1,0 +1,12 @@
+.logo-hamb {
+    width: 15rem;
+    height: 5rem;
+    display: none;
+  }
+  
+  .img-hamb {
+    width: 6rem;
+    height: 6rem;
+    padding: 0.5rem 0;
+  margin-left: 9rem;
+  }

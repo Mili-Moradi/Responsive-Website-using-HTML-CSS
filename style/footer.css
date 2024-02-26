@@ -1,0 +1,62 @@
+/* ---------------------Footer---------------- */
+.navigator {
+  width: 80%;
+  height: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.infos {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-footer {
+  display: flex;
+  width: 100%;
+  height: 22%;
+}
+.lases {
+  margin-top: -1rem;
+}
+.infos p,
+strong {
+  padding-top: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+.media {
+  width: 70%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-brands {
+  width: 2rem;
+  height: 2rem;
+  color: red;
+  padding: 0.5rem;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+.product,
+.engage,
+.money {
+  list-style-type: none;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+  cursor: pointer;
+}
+.active {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.copyright {
+  color: #b9b9b9;
+}

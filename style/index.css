@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fffefe;
+}
+
+/* -------------------------------------------------------- */
+/* Desktop menu-XLarge  1078px*/
+/* -------------------------------------------------------- */
+@media (max-width: 1078px) {
+  .btn {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* Desktop menu-Large  990px*/
+/* -------------------------------------------------------- */
+
+@media (max-width: 990px) {
+
+  /* ---------------------Section-1---------------- */
+  .text-1 .sec1-h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .text-1 .sec1-h1 strong {
+    font-size: 2rem;
+  }
+
+  .text-1 .sec1-p {
+    line-height: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  /* ---------------------Section-3---------------- */
+  .sec3-right .text3 h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .text3 .checked-3 li {
+    font-size: 0.9rem;
+  }
+
+  /* ---------------------Section-4---------------- */
+  .title-4 .checked-4 li {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  /* ---------------------Section-7---------------- */
+  .sec7-left .text7 h2 {
+    padding: 2rem 2rem 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sec7-left .text7 p {
+    padding-left: 2rem;
+  }
+
+  .container7 .sec7-right a {
+    margin: 5rem 2rem;
+  }
+
+  /* ---------------------Footer---------------- */
+  .navigator .infos p,
+  strong {
+    line-height: 1rem;
+  }
+
+  .navigator .infos {
+    width: 30%;
+  }
+
+  .logo-footer .lases {
+    font-size: 0.8rem;
+  }
+
+  .navigator .infos p,
+  strong {
+    padding-top: 0.5rem;
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .engage .footer-nav,
+  .product .footer-nav,
+  .money .footer-nav {
+    font-size: 0.8rem;
+  }
+
+  .active {
+    font-size: 1rem;
+  }
+}
+
+/* -------------------------------------------------------- */
+/* Desktop menu-Medium Medium 768px*/
+/* -------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  /* -----------------Header---------------------------*/
+  header .navbar {
+    display: none;
+  }
+
+  header .navigation {
+    display: flex;
+    justify-items: end;
+  }
+
+  header .logo-hamb {
+    display: flex;
+  }
+
+  /* ---------------------Section-1---------------- */
+  main .section-1 {
+    padding-top: 0;
+  }
+
+  .section-1 .container-1 {
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 1rem ; */
+  }
+
+  .container-1 .sec1-right {
+    height: 50%;
+  }
+
+  .container-1 .sec1-left {
+    height: 50%;
+  }
+
+  /* ---------------------Section-2---------------- */
+  main .section-2 {
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-2 .icons {
+    border-right: none;
+  }
+
+  /* ---------------------Section-3---------------- */
+  main .section-3 {
+    height: 40rem;
+  }
+
+  .section-3 .container3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container3 .sec3-left {
+    height: 50%;
+  }
+
+  .container3 .sec3-right {
+    height: 50%;
+    width: 100%;
+  }
+
+  /* ---------------------Section-4---------------- */
+  main .section-4 {
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-4 .grid {
+    width: 80%;
+    height: 100%;
+  }
+
+  /* ---------------------Section-5---------------- */
+  main .section-5 {
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 0;
+  }
+
+  .text5 {
+    height: 60%;
+  }
+
+  /* ---------------------Section-7---------------- */
+  main .section-7 {
+    height: 27rem;
+  }
+
+  .section-7 .container7 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container7 .sec7-left {
+    height: 50%;
+  }
+
+  .container7 .sec7-right {
+    height: 50%;
+  }
+
+  .container7 .sec7-right a {
+    margin: 4rem 1rem;
+  }
+
+  /* ---------------------Footer---------------- */
+  footer .navigator {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .engage .footer-nav,
+  .product .footer-nav,
+  .money .footer-nav {
+    font-size: 0.8rem;
+  }
+
+  .navigator .infos {
+    width: 50%;
+  }
+}

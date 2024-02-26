@@ -1,0 +1,41 @@
+/* ---------------------Section-6---------------- */
+.section-6 {
+    width: 80%;
+    height: 6rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 2rem;
+    margin-bottom: 6rem;
+  }
+  .section6-img1 {
+    background-image: url(../img/netflix-logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section6-img2 {
+    background-image: url(../img/reddit-logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section6-img3 {
+    background-image: url(../img/amazon-logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section6-img4 {
+    background-image: url(../img/discord-logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .section6-img5 {
+    background-image: url(../img/spotify-logo.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  

@@ -1,0 +1,40 @@
+/* ---------------------Section-2---------------- */
+.section-2 {
+  width: 80%;
+  height: 10rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 5px 25px rgb(197, 196, 196);
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.icons {
+  border-right: 1px solid #e1dede;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255, 235, 235);
+  border-radius: 50%;
+  color: red;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.title {
+  line-height: 2rem;
+}
+.title h6 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.none {
+  border-right: 0;
+}
